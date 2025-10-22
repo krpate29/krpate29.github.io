@@ -3,7 +3,6 @@ title = "Why Students Should Turn Off ChatGPT"
 date = 2025-10-21
 draft = false
 +++
-*Transcribed from a voice memo, this post examines the risks of relying on AI tools like ChatGPT in education, particularly for novice computer science students, and advocates for learning fundamentals without technological crutches.*
 
 ## Reflections on AI in Education
 
@@ -42,3 +41,5 @@ A concerning trend emerges: individuals developing a "ChatGPT brained" mindset, 
 Optimists predict imminent AI capabilities for generating complex applications in single prompts. I question this timeline. Excessive reliance fosters long-term challenges.
 
 My recommendation remains straightforward: remove ChatGPT and abstain from Cursor. Prioritize conceptual mastery, documentation review, and independent problem-solving from initial exposure.
+
+*Transcribed from a voice memo using Gemini 2.5 Pro.*
