@@ -1,0 +1,20 @@
+[[entries]]
+title = "about"
+url = "about"
+
+[[entries]]
+title = "posts"
+
+  [entries.post_list]
+  section = "posts"
+  
+# [[entries]]
+# title = "categories"
+
+#   [[entries.entries]]
+#   title = "research"
+#   url = "categories/research"
+
+#   [[entries.entries]]
+#   title = "engineering"
+#   url = "categories/engineering"

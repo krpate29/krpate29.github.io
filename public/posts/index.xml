@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Krish Patel</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Krish Patel</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Students Should Turn Off ChatGPT: Rejecting AI as a Learning Crutch</title>
+      <link>http://localhost:1313/posts/ai-crutch/</link>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ai-crutch/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally captured in a voice memo during a walk across campus, this reflection examines the risks of relying on generative AI tools in education and advocates for a return to foundational learning practices.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-allure-and-the-risk&#34;&gt;The Allure and the Risk&lt;/h2&gt;&#xA;&lt;p&gt;My name is Krish, and as a computer science student whose college years have coincided with the rapid rise of generative AI, I have witnessed firsthand how tools like ChatGPT, Gemini, and Cursor infiltrate academic workflows. While these technologies promise efficiency, I believe their unchecked use in educational settings, particularly for independent student work, represents a net negative for a substantial portion of computer science learners. This view may seem at odds with my upcoming role at a frontier AI lab, yet it stems from a clear distinction: AI excels as an accelerator for those who already grasp core concepts, not as a substitute for building them.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How Zero Cost Schooling Builds Purpose</title>
+      <link>http://localhost:1313/posts/risk-capital/</link>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/risk-capital/</guid>
+      <description>&lt;p&gt;&lt;em&gt;While originaly written as a letter to the Friends of Park Scholarships, this reflection explores how programs that eliminate our &lt;strong&gt;relative&lt;/strong&gt; educational costs fundamentally transform our ability to take risks and pursue meaningful work.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-hidden-value-risk-capital&#34;&gt;The Hidden Value: Risk Capital&lt;/h2&gt;&#xA;&lt;p&gt;My name is Krish, and I am a Park Scholar in the Class of 2026. While the opportunities this prestigious program has provided have been life-changing in many ways, I want to share a perspective that often goes undiscussed: how programs that drive the cost of attendance down to zero or close to it fundamentally transform our ability to take risks and pursue meaningful work.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
