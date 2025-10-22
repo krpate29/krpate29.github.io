@@ -26,7 +26,8 @@ The reason I mention this is because the Park Foundation removed any barriers I 
 
 If I had declined the Park Scholarship and gone to Duke instead, I would have had a $320,000 mountain of debt, and I can guarantee you that I would not have taken a $20-per-hour job, even if it was for one of the most impactful agencies in the world. The reason is that I would have never even considered it. When you do not have to overindex on finances, you are free to pursue passions and really think about what you want to do.
 
-When I was at the agency, I was proud of the work I did every single day, and I understood what I was working for (the future and prosperity of America). Now, I am heading to xAI as a member of their technical staff supporting their government work, and I will be contributing to advanced AI solutions that strengthen national security.
+When I was at the agency, I was proud of the work I did every single day, and I understood what I was working for (the future and prosperity of America). 
+<!-- Now, I am heading to xAI as a member of their technical staff supporting their government work, and I will be contributing to advanced AI solutions that strengthen national security. -->
 
 ## The Broader Impact
 
