@@ -1,7 +1,11 @@
-baseURL = 'https://krishpatel.dev/'
+baseURL = 'https://krpate29.github.io/'
 languageCode = 'en-us'
 title = 'Krish Patel'
 theme = 'hugo-theme-nostyleplease'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 [module]
   [module.hugoVersion]
