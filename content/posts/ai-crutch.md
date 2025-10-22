@@ -7,7 +7,7 @@ draft = false
 
 ## Reflections on AI in Education
 
-I have been considering the role of artificial intelligence in educational settings, specifically the unrestricted use of tools such as ChatGPT, Gemini, or Cursor at the college, high school, or middle school levels. This discussion focuses not on assistive tools like [Flint](https://www.flintk12.com/), which are controlled by educators, but on freely available independent AI systems.
+I have been considering the role of artificial intelligence in educational settings, specifically the unrestricted use of tools such as [ChatGPT](https://chat.openai.com), [Gemini](https://gemini.google.com), or [Cursor](https://cursor.sh) at the college, high school, or middle school levels. This discussion focuses not on assistive tools like [Flint](https://www.flintk12.com/), which are controlled by educators, but on freely available independent AI systems.
 
 As an individual whose college experience occurred entirely within the AI era, I believe these tools will represent a net negative for a substantial number of computer science students. This perspective may appear ironic, but I view the optimal application of AI as benefiting those who already possess knowledge of abstractions, engineering principles, and relevant domains.
 
