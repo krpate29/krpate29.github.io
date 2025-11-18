@@ -1,1 +1,0 @@
-# krpate29.github.io

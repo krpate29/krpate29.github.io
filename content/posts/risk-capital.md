@@ -4,11 +4,9 @@ date = 2025-10-20
 draft = false
 +++
 
-*While originaly written as a letter to the Friends of Park Scholarships, this reflection explores how programs that eliminate our **relative** educational costs fundamentally transform our ability to take risks and pursue meaningful work.*
-
 ## The Hidden Value: Risk Capital
 
-My name is Krish, and I am a Park Scholar in the Class of 2026. While the opportunities this prestigious program has provided have been life-changing in many ways, I want to share a perspective that often goes undiscussed: how programs that drive the cost of attendance down to zero or close to it fundamentally transform our ability to take risks and pursue meaningful work.
+I am a Park Scholar in the Class of 2026. While the opportunities this program has provided have been life-changing in many ways, I want to share a perspective that often goes undiscussed: how programs that drive the cost of attendance down to zero or close to it fundamentally transform our ability to take risks and pursue meaningful work.
 
 The impact of this transformation extends far beyond the obvious financial benefits. By removing the burden of university costs, these programs nurture something that is often overlooked but deeply American: **risk capital**. This country was built by individuals who decided to take risks and start ventures, whether it was funding groups to travel halfway across the world in search of resources (Virginia Company) or people starting their own businesses; America was built on risk capital.
 

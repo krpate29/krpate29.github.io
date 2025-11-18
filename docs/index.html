@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html data-theme="light">
+<head>
+    <title>Krish Patel</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Krish Patel's website">
+    <meta name="author" content="Krish Patel">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+    
+    <!-- KaTeX (Math) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    
+    <!-- HIGHLIGHT.JS (Code) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/base16/dracula.min.css">
+</head>
+<body>
+    <button class="theme-toggle" onclick="toggleTheme()" id="theme-toggle">Dark</button>
+    <div id='holder'>
+        <div id='left'></div>
+        <div id='middle'>
+            <h1>Krish Patel</h1>
+            <p>Hi!</p>
+<p>In the past, I&#39;ve enjoyed working on GEOINT exploitation applications at <a href="https://www.palantir.com/">Palantir</a>, quantum research at <a href="https://orise.orau.gov/">Oak Ridge</a>, cryptographic optimization at the <a href="https://www.nsa.gov/">NSA</a>, and bioinformatics algorithms at <a href="https://www.ncsu.edu/">NC State</a>.</p>
+<p>Connect with me on <a href="https://www.linkedin.com/in/krish-r-patel/">LinkedIn</a>!</p>
+
+            <div class="posts-container">
+            
+            <div class="post-collapsible">
+                <div class="post-header" onclick="togglePost('post-0')">
+                    <div class="post-title">The Downside of Streamlined Fine-Tuning for Frontier Labs</div>
+                    <div class="post-date">October 21, 2025</div>
+                </div>
+                <div class="post-content" id="post-0">
+                    <h2 id="origins-of-the-thought">Origins of the Thought</h2><p>With the rise of fine-tuning as a service, I have been reflecting on fine-tuning in general. Recently, I read a paper about a group at Morgan Stanley that fine-tuned Qwen models to perform well at writing Q code. Q is a programming language used in high-performance finance, but it sees limited adoption elsewhere, resulting in limited data.</p>
+<p>Initial benchmarking revealed that the models underperformed, likely due to the scarcity of training data and their inability to meet specific needs.</p>
+<h2 id="the-allure-of-simplified-services">The Allure of Simplified Services</h2><p>This experience led me to consider services like <a href="https://platform.openai.com/docs/guides/reinforcement-fine-tuning">OpenAI&#39;s Reinforcement Fine-Tuning (RFT)</a>, where users create a &quot;grader file,&quot; leverage a reasoning model, and iteratively improve performance based on a deterministic grader. Their website features case studies from companies like <a href="https://www.harvey.ai/">Harvey</a>.</p>
+<p>However, after reviewing the <a href="https://arxiv.org/abs/2508.06813">nearly 40-page technical report from the Morgan Stanley group</a>, I concluded that the easier it becomes to fine-tune a proprietary model, the less likely sophisticated users will adopt it for specialized cases.</p>
+<p>This may seem counterproductive, but fine-tuning is far from straightforward. I initially assumed it involved collecting reference code, performing basic pre-training, and calling it complete. The reality proves otherwise.</p>
+<p>The paper highlights numerous pitfalls, from dataset construction and evaluation design to issues like reward hacking in Q problems and solutions.</p>
+<h2 id="the-rigors-of-the-process">The Rigors of the Process</h2><p>Once the dataset is prepared, supervised fine-tuning requires training the generator model on an expanding corpus. Midway, pre-training intervenes to counteract generation stagnation. Finally, pass metrics are implemented, often incorporating reinforcement learning.</p>
+<p>The team iterated extensively on each step to refine the process, as failure points abound.</p>
+<p>Even with RFT, users must still develop the grader file and evaluation harness in advance; the service does not eliminate these prerequisites.</p>
+<p>Organizations pursue fine-tuning for exceptional performance on a single task. Research consistently shows that smaller models rival larger ones for specialized domains like coding. In a large language model, most parameters remain inactive for narrow applications. LLMs excel through versatility across tasks. Yet, when fine-tuning targets one domain, the scale of a massive model becomes unnecessary.</p>
+<h2 id="economic-and-practical-incentives">Economic and Practical Incentives</h2><p>If a fine tuning harness is already in place, why subsidize cloud inference costs from providers like Anthropic or OpenAI? Inference APIs represent one of the few profitable segments for frontier labs, with strong margins.</p>
+<p>For entities with their own GPUs, a smaller open-source model offers superior marginal benefits, especially since the foundational setup for fine-tuning already exists.</p>
+<p>I question the strategy of simplifying fine-tuning for proprietary GPTs. For sophisticated users, the opposite effect may occur, favoring independent, tailored solutions.</p>
+
+                </div>
+            </div>
+
+            <div class="post-collapsible">
+                <div class="post-header" onclick="togglePost('post-1')">
+                    <div class="post-title">Why Students Should Turn Off ChatGPT</div>
+                    <div class="post-date">October 20, 2025</div>
+                </div>
+                <div class="post-content" id="post-1">
+                    <h2 id="reflections-on-ai-in-education">Reflections on AI in Education</h2><p>I have been considering the role of artificial intelligence in educational settings, specifically the unrestricted use of tools such as <a href="https://chat.openai.com">ChatGPT</a>, <a href="https://gemini.google.com">Gemini</a>, or <a href="https://cursor.sh">Cursor</a> at the college, high school, or middle school levels. This discussion focuses not on assistive tools like <a href="https://www.flintk12.com/">Flint</a>, which are controlled by educators, but on freely available independent AI systems.</p>
+<p>As an individual whose college experience occurred entirely within the AI era, I believe these tools will represent a net negative for a substantial number of computer science students. This perspective may appear ironic, but I view the optimal application of AI as benefiting those who already possess knowledge of abstractions, engineering principles, and relevant domains.</p>
+<h2 id="the-expert-versus-the-novice">The Expert Versus the Novice</h2><p>A key distinction exists in the effective utilization of AI.</p>
+<p>For the expert, such as a senior engineer, AI serves as an extension of sophisticated judgment. They specify desired outcomes, outline implementation strategies, and employ AI to produce boilerplate code or integrate elements within an established architecture.</p>
+<p>In contrast, the novice, often an inexperienced college student, prompts AI to generate complete solutions from initial problem statements, delegating the entire problem-solving process.</p>
+<p>The accessibility of this novice approach poses a significant issue. I estimate that at least 50 percent of computer science students, possibly more, employ AI to circumvent assignment requirements. This practice has become evident. It enables individuals to complete a four-year degree without acquiring coding proficiency, achieving a 4.0 GPA with minimal effort, thanks to advancements in model capabilities.</p>
+<h2 id="the-importance-of-fundamentals">The Importance of Fundamentals</h2><p>Critics may contend that such reliance is inconsequential and suggest increasing assignment complexity. I disagree. The purpose of higher education lies in mastering foundational concepts.</p>
+<p>Consider the historical shift from manual assembly coding to compiler-assisted development in higher-level languages. While compilers abstract low-level operations, electrical engineering curricula retain instruction in assembly to ensure comprehension of underlying mechanisms, despite infrequent practical application.</p>
+<p>Likewise, university assignments, though narrowly defined, demand personal implementation to build essential skills. AI excels at these constrained tasks, which align with introductory building blocks, yet outsourcing them undermines true understanding.</p>
+<h2 id="real-world-limitations">Real-World Limitations</h2><p>To achieve genuine proficiency, students should disable ChatGPT and similar tools like Cursor until they grasp underlying architectures, system designs, and programming languages sufficiently.</p>
+<p>Academic success through AI-assisted shortcuts proves unsustainable professionally. In environments such as legacy organizations with extensive, unstructured codebases, such methods falter. I have observed this repeatedly: students adept at rapid prototyping in controlled settings struggle profoundly when deprived of AI in regulated sectors or with unfamiliar legacy systems. Performance deteriorates markedly, rendering contributions ineffective.</p>
+<h2 id="the-risk-of-dependency">The Risk of Dependency</h2><p>I remain uncertain about viable applications for AI coding assistance at the undergraduate level, as it often negates educational objectives. Exceptional learners may navigate this differently, but the typical student requires unassisted practice.</p>
+<p>A concerning trend emerges: individuals developing a &quot;ChatGPT brained&quot; mindset, wherein AI supplants critical thinking. This proves beneficial only for those with prior expertise. Undergraduates, by definition, seek to acquire such expertise through structured learning.</p>
+<p>Optimists predict imminent AI capabilities for generating complex applications in single prompts. I question this timeline. Excessive reliance fosters long-term challenges.</p>
+<p>My recommendation remains straightforward: remove ChatGPT and abstain from Cursor. Prioritize conceptual mastery, documentation review, and independent problem-solving from initial exposure.</p>
+
+                </div>
+            </div>
+
+            <div class="post-collapsible">
+                <div class="post-header" onclick="togglePost('post-2')">
+                    <div class="post-title">How Zero Cost Schooling Builds Purpose</div>
+                    <div class="post-date">October 19, 2025</div>
+                </div>
+                <div class="post-content" id="post-2">
+                    <h2 id="the-hidden-value-risk-capital">The Hidden Value: Risk Capital</h2><p>I am a Park Scholar in the Class of 2026. While the opportunities this program has provided have been life-changing in many ways, I want to share a perspective that often goes undiscussed: how programs that drive the cost of attendance down to zero or close to it fundamentally transform our ability to take risks and pursue meaningful work.</p>
+<p>The impact of this transformation extends far beyond the obvious financial benefits. By removing the burden of university costs, these programs nurture something that is often overlooked but deeply American: <strong>risk capital</strong>. This country was built by individuals who decided to take risks and start ventures, whether it was funding groups to travel halfway across the world in search of resources (Virginia Company) or people starting their own businesses; America was built on risk capital.</p>
+<h2 id="the-genius-paradox">The Genius Paradox</h2><p>When you see geniuses in the news, young prodigies with incredible minds, people often think, &quot;Wow, that kid could solve cancer or create innovative technology or do something to push humanity forward.&quot; Yet, more often than not, you see them go into management consulting or banking or some other profession with lower societal utility.</p>
+<p>Why is that so? Well, if you consider the cost of attending elite schools (more than half of students at schools like Harvard, Yale, etc. pay full price), you have a sizable amount of debt before you even start making money. Why pursue an exciting venture with a 90% chance of failure when you could take the respected yet institutional path like working at McKinsey?</p>
+<p>It is similar to when people attend MBA programs hoping to become entrepreneurs. You know what stops most entrepreneurship? It is not a lack of talent but a lack of financial freedom. After taking on a $200,000 loan for the privilege of starting a business that will most likely generate no immediate income, who would take that risk?</p>
+<h2 id="the-freedom-to-pursue-purpose">The Freedom to Pursue Purpose</h2><p>The reason I mention this is because the Park Foundation removed any barriers I might have had; no debt, no obligations; allowing me to focus on what I am truly passionate about. I realized I am passionate about defense, and I decided to work at the National Security Agency after my freshman year.</p>
+<p>If I had declined the Park Scholarship and gone to Duke instead, I would have had a $320,000 mountain of debt, and I can guarantee you that I would not have taken a $20-per-hour job, even if it was for one of the most impactful agencies in the world. The reason is that I would have never even considered it. When you do not have to overindex on finances, you are free to pursue passions and really think about what you want to do.</p>
+<p>When I was at the agency, I was proud of the work I did every single day, and I understood what I was working for (the future and prosperity of America). </p>
+<!-- Now, I am heading to xAI as a member of their technical staff supporting their government work, and I will be contributing to advanced AI solutions that strengthen national security. -->
+
+<h2 id="the-broader-impact">The Broader Impact</h2><p>Without the Park program, I would have been yet another Computer Science major interested in working at whatever company was trending. Instead, I now have a sense of individuality and purpose that differentiates me from most, and I would not have gotten that without the Park program.</p>
+<p>This principle extends beyond any single scholarship program. When students don&#39;t graduate with crushing debt, they can take calculated risks on meaningful work, pursue passions without financial constraints, consider opportunities based on impact rather than compensation, and develop a sense of purpose that transcends career advancement.</p>
+<p>Programs that eliminate educational costs don&#39;t just provide financial support --&gt; they provide <strong>freedom</strong>. This freedom is what allows talented individuals to become the leaders, innovators, and change-makers that society needs. It&#39;s not just about removing financial barriers; it&#39;s about removing the psychological barriers that prevent people from pursuing their highest potential.</p>
+
+                </div>
+            </div>
+            </div>
+        </div>
+        <div id='right'></div>
+    </div>
+
+    <!-- LIBRARIES -->
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/python.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/javascript.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/typescript.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/bash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/shell.min.js"></script>
+
+    <script>
+        function togglePost(postId) {
+            const content = document.getElementById(postId);
+            content.classList.toggle('expanded');
+        }
+
+        function toggleTheme() {
+            const html = document.documentElement;
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateThemeButton(newTheme);
+        }
+
+        function updateThemeButton(theme) {
+            const button = document.getElementById('theme-toggle');
+            button.textContent = theme === 'dark' ? 'Light' : 'Dark';
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            // Load saved theme or default to light
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+            updateThemeButton(savedTheme);
+
+            const container = document.getElementById('middle');
+
+            // Highlight Code Blocks
+            document.querySelectorAll('pre code').forEach((block) => {
+                hljs.highlightElement(block);
+            });
+
+            // Render Math (KaTeX)
+            if (typeof renderMathInElement !== 'undefined') {
+                renderMathInElement(container, {
+                    delimiters: [
+                        {left: '$$', right: '$$', display: true},
+                        {left: '$', right: '$', display: false}
+                    ],
+                    throwOnError: false
+                });
+            }
+        });
+    </script>
+</body>
+</html>

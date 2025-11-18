@@ -1,0 +1,189 @@
+/* GENERAL PAGE RULES */
+
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --link-color: #0066cc;
+    --link-hover-color: #0052a3;
+    --date-color: #666;
+    --code-bg: #f0f0f0;
+    --blockquote-border: #0066cc;
+}
+
+[data-theme="dark"] {
+    --bg-color: #000000;
+    --text-color: #ffffff;
+    --link-color: #4da6ff;
+    --link-hover-color: #80c1ff;
+    --date-color: #999;
+    --code-bg: #1a1a1a;
+    --blockquote-border: #4da6ff;
+}
+
+body {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-size: 1em;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+#holder {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+}
+
+#left {
+    flex-grow: 100;
+    min-width: 1em;
+    max-width: 4em;
+}
+
+#middle {
+    max-width: 39em;
+}
+
+#right {
+    min-width: 1em;
+    flex-grow: 100;
+}
+
+a {
+    color: var(--link-color);
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: var(--link-hover-color);
+}
+
+/* Posts container */
+.posts-container {
+    margin-top: 3em;
+}
+
+/* Post collapsible styles */
+.post-collapsible {
+    margin-bottom: 1.5em;
+}
+
+.post-header {
+    cursor: pointer;
+    user-select: none;
+}
+
+.post-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--link-color);
+    margin-bottom: 0.25em;
+    transition: color 0.3s;
+}
+
+.post-header:hover .post-title {
+    color: var(--link-hover-color);
+}
+
+.post-date {
+    font-size: 0.85em;
+    color: var(--date-color);
+    margin-bottom: 0.5em;
+    transition: color 0.3s;
+}
+
+.post-content {
+    display: none;
+    margin-top: 1em;
+}
+
+.post-content.expanded {
+    display: block;
+}
+
+/* Markdown content styles */
+.post-content p {
+    margin-bottom: 1em;
+    line-height: 1.6;
+}
+
+.post-content h2 {
+    font-size: 1.1em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.post-content h3 {
+    font-size: 1em;
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.post-content ul, .post-content ol {
+    margin-bottom: 1em;
+    padding-left: 2em;
+}
+
+.post-content li {
+    margin-bottom: 0.5em;
+}
+
+.post-content code {
+    background-color: var(--code-bg);
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-family: monospace;
+    transition: background-color 0.3s;
+}
+
+.post-content pre {
+    background-color: var(--code-bg);
+    padding: 1em;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin-bottom: 1em;
+    transition: background-color 0.3s;
+}
+
+.post-content pre code {
+    background-color: transparent;
+    padding: 0;
+}
+
+.post-content blockquote {
+    border-left: 3px solid var(--blockquote-border);
+    padding-left: 1em;
+    margin-left: 0;
+    margin-bottom: 1em;
+    font-style: italic;
+    transition: border-color 0.3s;
+}
+
+/* Theme toggle button */
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    padding: 8px 12px;
+    cursor: pointer;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-size: 0.9em;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    z-index: 1000;
+}
+
+.theme-toggle:hover {
+    background-color: var(--text-color);
+    color: var(--bg-color);
+}
+

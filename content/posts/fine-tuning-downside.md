@@ -34,5 +34,3 @@ If a fine tuning harness is already in place, why subsidize cloud inference cost
 For entities with their own GPUs, a smaller open-source model offers superior marginal benefits, especially since the foundational setup for fine-tuning already exists.
 
 I question the strategy of simplifying fine-tuning for proprietary GPTs. For sophisticated users, the opposite effect may occur, favoring independent, tailored solutions.
-
-*Transcribed from a voice memo using Gemini 2.5 Pro.*
